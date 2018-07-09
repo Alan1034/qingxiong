@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
@@ -15,9 +15,11 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Resource style -->
 	<link rel="stylesheet" href="./css/animate.min.css">
-
+	<!-- 轮播图 -->
+	<link rel='stylesheet prefetch' href='css/drag-slider/flickity.min.css' media="screen">
+	<link rel="stylesheet" href="css/drag-slider/style.css">
 	<!--[if IE]>
-		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<script src="https://lib.baomitu.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
 
@@ -96,7 +98,36 @@
 		</ul>
 	</nav>
 	<!-- .cd-secondary-nav -->
-
+	<!-- 轮播图 -->
+	<div class="gallery" >
+		<div class="gallery-cell">
+			<img src="img/drag-slider/orange-tree.jpg" alt="orange tree" />
+		</div>
+		<div class="gallery-cell">
+			<img src="img/drag-slider/submerged.jpg" alt="submerged" />
+		</div>
+		<div class="gallery-cell">
+			<img src="img/drag-slider/look-out.jpg" alt="look-out" />
+		</div>
+		<div class="gallery-cell">
+			<img src="img/drag-slider/one-world-trade.jpg" alt="freedom tower" />
+		</div>
+		<div class="gallery-cell">
+			<img src="img/drag-slider/drizzle.jpg" alt="drizzle" />
+		</div>
+		<div class="gallery-cell">
+			<img src="img/drag-slider/cat-nose.jpg" alt="cat nose" />
+		</div>
+		<div class="gallery-cell">
+			<img src="img/drag-slider/contrail.jpg" alt="like a meteor" />
+		</div>
+		<div class="gallery-cell">
+			<img src="img/drag-slider/golden-hour.jpg" alt="golden hour" />
+		</div>
+		<div class="gallery-cell">
+			<img src="img/drag-slider/flight-formation.jpg" alt="flight formation" />
+		</div>
+	</div>
 	<main class="cd-main-content sub-nav-hero">
 		<div>
 			<header class="htmleaf-header">
@@ -111,26 +142,28 @@
 				  <a href="index2.html">nav-subnav</a>
 				  <a href="index3.html" class="current">nav-hero-subnav</a> -->
 				</div>
+
 			</header>
-	<div class="row">
-		<div class="wow bounceInLeft bg-purple">依赖 animate.css</div>
-		<div class="wow pulse bg-blue" data-wow-iteration="5" data-wow-duration="0.25s"></div>
-		<div class="wow lightSpeedIn bg-yellow">多种动画</div>
-	</div>
-	
-	<div class="row">
-		<div class="wow bounce bg-green" data-wow-iteration="5" data-wow-duration="0.15s"></div>
-		<div class="wow bounceInUp bg-red">WOW.js</div>
-		<div class="wow bounceInRight bg-purple"></div>
-	</div>
-	
-	<div class="row">
-		<div class="wow rollIn bg-red" data-wow-delay="0.5s">无需 jQuery！？</div>
-		<div class="wow bounceInDown bg-green" data-wow-delay="1s"></div>
-		<div class="wow bounceInRight bg-yellow" data-wow-delay="1.5s">谢谢</div>
-	</div>
-	<div class="wow slideInLeft">qweqwe</div>
-	<div class="wow slideInRight">qweqweqwe</div>
+
+			<div class="row">
+				<div class="wow bounceInLeft bg-purple">依赖 animate.css</div>
+				<div class="wow pulse bg-blue" data-wow-iteration="5" data-wow-duration="0.25s"></div>
+				<div class="wow lightSpeedIn bg-yellow">多种动画</div>
+			</div>
+
+			<div class="row">
+				<div class="wow bounce bg-green" data-wow-iteration="5" data-wow-duration="0.15s"></div>
+				<div class="wow bounceInUp bg-red">WOW.js</div>
+				<div class="wow bounceInRight bg-purple"></div>
+			</div>
+
+			<div class="row">
+				<div class="wow rollIn bg-red" data-wow-delay="0.5s">无需 jQuery！？</div>
+				<div class="wow bounceInDown bg-green" data-wow-delay="1s"></div>
+				<div class="wow bounceInRight bg-yellow" data-wow-delay="1.5s">谢谢</div>
+			</div>
+			<div class="wow slideInLeft">qweqwe</div>
+			<div class="wow slideInRight">qweqweqwe</div>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolore, impedit eveniet necessitatibus voluptate distinctio
 				quam repellendus voluptates voluptatum inventore rem sapiente minus esse saepe iste harum architecto numquam quis vero
@@ -149,8 +182,9 @@
 
 		</div>
 	</main>
-	<!-- .cd-main-content -->
 
+	<!-- .cd-main-content -->
+	<!-- <script src='js/jquery.min.js'></script> -->
 	<!-- <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script> -->
 	<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
 	<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -160,8 +194,12 @@
 	<script src="./js/wow.min.js"></script>
 	<script src="js/main.js"></script>
 	<!-- Resource jQuery -->
+	<!-- 轮播图 -->
+	<script src='js/drag-slider/flickity.pkgd.min.js'></script>
+	<script src="js/drag-slider/index.js"></script>
 </body>
 <script>
 
-	</script>
+</script>
+
 </html>

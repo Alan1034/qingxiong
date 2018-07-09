@@ -97,3 +97,11 @@ var wow = new WOW({
 		live: true
 	});
 	wow.init();
+
+// $(function () {
+
+// 	var $gallery = $('.gallery').flickity({
+// 		cellSelector: '.gallery-cell'
+// 	})
+
+// });
