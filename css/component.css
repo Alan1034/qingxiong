@@ -1,4 +1,19 @@
 #qingxiongdizhi {
-    width: 300px;
+    width: 500px;
     height: 300px;
+    /* position: absolute; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer {
+    background-color: RGB(46, 48, 55);
+    padding-top: 25px;
+    font-size: 1.6rem;
+    font-family: "Microsoft YaHei", sans-serif;
+    /* z-index: 99; */
+}
+
+.footWord {
+    color: #ffffff;
 }
