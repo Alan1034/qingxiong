@@ -108,7 +108,9 @@ var wow = new WOW({
 
 // 导航菜单
 jQuery(document).ready(function () {
+	// $(".cd-nav-trigger").draggable();
 	if ($('.cd-stretchy-nav').length > 0) {
+
 		var stretchyNavs = $('.cd-stretchy-nav');
 
 		stretchyNavs.each(function () {
@@ -126,7 +128,9 @@ jQuery(document).ready(function () {
 		});
 	}
 });
-
+// $(function () {
+// 	$(".cd-stretchy-nav").draggable();
+// });
 // 百度地图
 // 百度地图API功能
 var map = new BMap.Map("qingxiongdizhi");    // 创建Map实例

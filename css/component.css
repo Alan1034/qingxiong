@@ -11,9 +11,11 @@ footer {
     padding-top: 25px;
     font-size: 1.6rem;
     font-family: "Microsoft YaHei", sans-serif;
+    padding: 10px 20%;
     /* z-index: 99; */
 }
 
 .footWord {
     color: #ffffff;
+    margin: 5px;
 }
