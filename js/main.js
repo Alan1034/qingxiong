@@ -128,9 +128,9 @@ jQuery(document).ready(function () {
 		});
 	}
 });
-// $(function () {
-// 	$(".cd-stretchy-nav").draggable();
-// });
+$(function () {
+	$("#drag").draggable();
+});
 // 百度地图
 // 百度地图API功能
 var map = new BMap.Map("qingxiongdizhi");    // 创建Map实例
