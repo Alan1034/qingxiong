@@ -131,6 +131,16 @@ jQuery(document).ready(function () {
 $(function () {
 	$("#drag").draggable();
 });
+// 组件高度
+$(".bodyComponents").height(window.innerHeight-70);
+$(".CompanyProfile-picture").children().width(window.innerWidth*0.6);
+$(".CompanyProfile-picture").children().height(360);
+// $(".background1").css({
+// 	// padding: $(".bodyComponents-main").width/10
+// 	width:window.innerWidth,
+// 	float:left
+// });
+
 // 百度地图
 // 百度地图API功能
 var map = new BMap.Map("qingxiongdizhi");    // 创建Map实例

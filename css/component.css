@@ -1,21 +1,121 @@
+.background1 {
+  background-color: #ffffff;
+}
+
+.bodyComponents {
+  padding: 60px 5% 2em;
+  position: relative;
+}
+
+/* 主页第一部分 */
+
+.bodyComponents-main {
+  width: 100%;
+  /* height: 300px; */
+  margin: 0, auto;
+}
+
+.bodyComponents-main div {
+  width: 20%;
+  float: left;
+  /* position: relative; */
+}
+
+.bodyComponents-main div img {
+  width: 95%;
+  /* position: absolute; */
+  height: 280px;
+}
+
+.bodyComponents-main-Picture1 {
+  padding-bottom: 30px;
+}
+
+.bodyComponents-main-Picture2 {
+  padding-top: 30px;
+}
+
+/* 主页第二部分 */
+
+.CompanyProfile-picture {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 288px;
+  z-index: 2;
+}
+
+.CompanyProfile-frame {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  border: 3px solid #AEACAF;
+  z-index: 1;
+  right: 130px;
+  top: 518px;
+}
+
 #qingxiongdizhi {
-    width: 500px;
-    height: 300px;
-    /* position: absolute; */
-    left: 50%;
-    transform: translateX(-50%);
+  width: 360px;
+  height: 278px;
+  position: absolute;
+  left: 105px;
+  z-index: 3;
+  /* transform: translateX(-50%); */
+}
+
+/* 主页第三部分 */
+
+.bodyComponents-main3 {
+  width: 100%;
+  /* height: 300px; */
+  margin: 0, auto;
+}
+
+.bodyComponents-main3-1 {
+  width: 13%;
+  box-shadow: 0px 10px 10px #888888;
+  border-radius: 8px 8px 0px 0px;
+  left: 16%;
+  /* height: 280px; */
+  position: absolute;
+}
+
+.bodyComponents-main3-2 {
+  width: 13%;
+  box-shadow: 0px 10px 10px #888888;
+  border-radius: 8px 8px 0px 0px;
+  left: 45%;
+  position: absolute;
+}
+
+.bodyComponents-main3-3 {
+  width: 13%;
+  box-shadow: 0px 10px 10px #888888;
+  border-radius: 8px 8px 0px 0px;
+  left: 73%;
+  position: absolute;
+}
+
+.bodyComponents-main3 div img {
+    height: 160px;
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+.bodyComponents-main3 div div {
+    height: 80px
 }
 
 footer {
-    background-color: RGB(46, 48, 55);
-    padding-top: 25px;
-    font-size: 1.6rem;
-    font-family: "Microsoft YaHei", sans-serif;
-    padding: 10px 20%;
-    /* z-index: 99; */
+  background-color: #9d7655;
+  padding-top: 25px;
+  font-size: 1.6rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  padding: 10px 20%;
+  z-index: 8;
 }
 
 .footWord {
-    color: #ffffff;
-    margin: 5px;
+  color: #ffffff;
+  margin: 5px;
 }
