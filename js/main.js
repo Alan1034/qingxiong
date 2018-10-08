@@ -128,9 +128,9 @@ jQuery(document).ready(function () {
 		});
 	}
 });
-$(function () {
-	$("#drag").draggable();
-});
+// $(function () {
+// 	$("#drag").draggable();
+// });
 // 组件高度
 $(".bodyComponents").height(window.innerHeight-70);
 $(".CompanyProfile-picture").children().width(window.innerWidth*0.6);

@@ -98,12 +98,13 @@
 }
 
 .bodyComponents-main3 div img {
-    height: 160px;
+  height: 160px;
   width: 100%;
   border-radius: 8px 8px 0px 0px;
 }
+
 .bodyComponents-main3 div div {
-    height: 80px
+  height: 80px
 }
 
 footer {
@@ -113,9 +114,30 @@ footer {
   font-family: "Microsoft YaHei", sans-serif;
   padding: 10px 20%;
   z-index: 8;
+  height: 315px;
 }
 
 .footWord {
   color: #ffffff;
   margin: 5px;
+}
+
+footer span {
+  padding-top: 70px;
+  width: calc(33.3% - 10px);
+  display: inline-block
+}
+
+footer span p {
+  text-align: center;
+}
+
+.footWord_link {
+  width: calc(33.3%-10px);
+  display: inline-block
+}
+
+.footWord_title{
+  /* line-height: 23px; */
+  font-size: 23px;
 }
