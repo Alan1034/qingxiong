@@ -130,6 +130,7 @@ footer span {
 
 footer span p {
   text-align: center;
+  padding: 10px 0px;
 }
 
 .footWord_link {
@@ -140,4 +141,5 @@ footer span p {
 .footWord_title{
   /* line-height: 23px; */
   font-size: 23px;
+  color:#caa681
 }
