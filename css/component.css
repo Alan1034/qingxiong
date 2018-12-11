@@ -112,7 +112,7 @@ footer {
   padding-top: 25px;
   font-size: 1.6rem;
   font-family: "Microsoft YaHei", sans-serif;
-  padding: 10px 20%;
+  padding: 10px 13%;
   z-index: 8;
   height: 315px;
 }
@@ -125,7 +125,8 @@ footer {
 footer span {
   padding-top: 70px;
   width: calc(33.3% - 10px);
-  display: inline-block
+  display: inline-block;
+  vertical-align: text-top;
 }
 
 footer span p {
@@ -134,12 +135,25 @@ footer span p {
 }
 
 .footWord_link {
-  width: calc(33.3%-10px);
+  /* width: calc(33.3%-10px)!important; */
+  width:29%;
   display: inline-block
 }
 
-.footWord_title{
+.footWord_title {
   /* line-height: 23px; */
   font-size: 23px;
-  color:#caa681
+  color: #caa681
+}
+.footWord_title1 {
+  /* line-height: 23px; */
+  font-size: 27px;
+  color: #ffe2bf;
+  text-align:right;
+}
+
+.footWord_messages{
+  text-align: right;
+  /* margin: 0px; */
+  padding:0px;
 }

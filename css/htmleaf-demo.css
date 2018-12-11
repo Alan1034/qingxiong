@@ -80,8 +80,8 @@ a {
 
 a:hover,
 a:focus {
-  color: #74777b;
-  text-decoration: none;
+  color: #ecebe1;
+   text-decoration: none;
 }
 
 .htmleaf-container {
@@ -185,6 +185,7 @@ a:focus {
   margin-top: 180px;
   font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
 }
+
 .htmleaf-header h2 {
   color: #6c7a89;
   font-weight: 600;
@@ -203,6 +204,7 @@ a:focus {
   padding: 0.8em 0 0.5em 0;
   color: #c3c8cd;
 }
+
 .htmleaf-header h2 span {
   font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
   display: block;
