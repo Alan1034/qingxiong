@@ -1,0 +1,51 @@
+footer {
+  background-color: #9d7655;
+  padding-top: 25px;
+  font-size: 1.6rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  padding: 10px 13%;
+  z-index: 8;
+  height: 315px;
+}
+
+.footWord {
+  color: #ffffff;
+  margin: 5px;
+}
+
+footer span {
+  padding-top: 70px;
+  width: calc(33.3% - 10px);
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+footer span p {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.footWord_link {
+  /* width: calc(33.3%-10px)!important; */
+  width: 29%;
+  display: inline-block
+}
+
+.footWord_title {
+  /* line-height: 23px; */
+  font-size: 23px;
+  color: #caa681
+}
+
+.footWord_title1 {
+  /* line-height: 23px; */
+  font-size: 27px;
+  color: #ffe2bf;
+  text-align: right;
+}
+
+.footWord_messages {
+  text-align: right;
+  /* margin: 0px; */
+  padding: 0px;
+}
