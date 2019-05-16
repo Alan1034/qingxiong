@@ -114,3 +114,8 @@ jQuery(document).ready(function ($) {
     }
   }
 });
+
+// 上部导航样式
+// console.log($(`#${window.location.pathname.split("/")[window.location.pathname.split("/").length - 1].split(".")[0]}`))
+$(`#${window.location.pathname.split("/")[window.location.pathname.split("/").length - 1].split(".")[0]}`).parent().siblings().children().removeClass("active")
+$(`#${window.location.pathname.split("/")[window.location.pathname.split("/").length - 1].split(".")[0]}`).addClass('active')
