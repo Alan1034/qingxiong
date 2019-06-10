@@ -7,7 +7,10 @@
   padding: 7% 0;
 }
 
-.cd-hero {
+.introductionTips{
+  width: 66px;
+  height: 50px;
+} .cd-hero {
   /* vertically align its content */
-  height: 0px!important;
+  height: 0px !important;
 }
