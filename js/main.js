@@ -45,3 +45,17 @@ local.search("青雄地毯");
 map.addControl(new BMap.NavigationControl());
 map.setCurrentCity("广州");          // 设置地图显示的城市 此项是必须设置的
 map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+
+// 练习
+// const sum=(arr)=>{
+// if(arr.length==0){
+// 	return 0
+// }
+// 	// console.log(arr.slice(1))
+// 		// console.log(arr[0])
+// 	num = arr[0] + sum(arr.slice(1))
+// // console.log(num)
+// 	// console.log(arr[1] + sum(arr.slice(1)))
+// 	return num}
+// console.log(sum([1,3,4,6,7]))
